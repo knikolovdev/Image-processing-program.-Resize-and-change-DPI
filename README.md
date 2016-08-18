@@ -1,4 +1,4 @@
-# Image-processing-program.-Resize-and-change-DPI https://gitter.im/knikolov1t/Selenium-Bot-Template](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/knikolov1t/Image-processing-program.-Resize-and-change-DPI?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Image-processing-program.-Resize-and-change-DPI [![Join the chat at https://gitter.im/knikolov1t/Selenium-Bot-Template](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/knikolov1t/Image-processing-program.-Resize-and-change-DPI?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ## Features
 1. Good looking UI
 2. Change the width and height of an image
