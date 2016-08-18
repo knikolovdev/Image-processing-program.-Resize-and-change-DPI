@@ -7,3 +7,4 @@
 5. Recursion - will process all subfolders, subsubflders etc..
 6. Logs progress
 7. Ignores files that are not image
+8. Preserves aspect ratio
