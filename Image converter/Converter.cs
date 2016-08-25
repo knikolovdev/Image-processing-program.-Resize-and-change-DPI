@@ -50,7 +50,6 @@ namespace Image_converter
             {
                 if (ImageExtensions.Contains(Path.GetExtension(fileName).ToUpperInvariant()))
                 {
-                    Image i = Image.FromFile(fileName);
                     MainWindow.UI.Dispatcher.Invoke((Action)(() =>
                     {
                         MainWindow.UI.ImageBox.Source = new BitmapImage(new Uri(fileName));
