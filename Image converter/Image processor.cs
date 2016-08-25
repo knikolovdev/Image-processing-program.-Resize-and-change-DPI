@@ -60,8 +60,6 @@ namespace Image_converter
             graphic.CompositingQuality = CompositingQuality.HighQuality;
             graphic.DrawImage(image, xPosition, yPosition, newImageWidth, newImageHeight);
 
-            image.Dispose();
-
             int dpiValue = 0;
             if(dpi != string.Empty)
             {
@@ -71,6 +69,7 @@ namespace Image_converter
             
             thumbnail.Save(newPath + "\\" + newFileName, imageEncoders[1], encoderParameters);
 
+            image.Dispose();
             thumbnail.Dispose();
         }
     }
